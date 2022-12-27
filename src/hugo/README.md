@@ -7,7 +7,7 @@
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/hugo:1": {}
+    "ghcr.io/codspace/featuresfork/hugo:1": {}
 }
 ```
 
@@ -22,4 +22,4 @@
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/hugo/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/codspace/featuresfork/blob/main/src/hugo/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
