@@ -1,13 +1,13 @@
 
 # Light-weight Desktop (desktop-lite)
 
-Adds a lightweight Fluxbox based desktop to the container that can be accessed using a VNC viewer or the web. GUI-based commands executed from the built-in VS code terminal will open on the desktop automatically.
+
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    "ghcr.io/codspace/featuresfork/desktop-lite:1": {}
 }
 ```
 
@@ -89,4 +89,4 @@ That's it!
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/desktop-lite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/codspace/featuresfork/blob/main/src/desktop-lite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
