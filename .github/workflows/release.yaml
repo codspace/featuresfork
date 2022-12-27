@@ -1,4 +1,4 @@
-name: "Release dev container features"
+name: "jospicer action --- Release dev container features"
 on:
   workflow_dispatch:
   push:
@@ -13,10 +13,10 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: "Publish"
-        uses: devcontainers/action@v1
+        uses: joshspicer/devcontainer-action@v0
         with:
           publish-features: "true"
           base-path-to-features: "./src"
-          disable-schema-validation: "true"
+#           disable-schema-validation: "true"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
