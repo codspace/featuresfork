@@ -7,7 +7,7 @@ Re-use the host docker socket, adding the Docker CLI to a container. Feature inv
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/docker-from-docker:1": {}
+    "ghcr.io/codspace/featuresfork/docker-from-docker:1": {}
 }
 ```
 
@@ -77,4 +77,4 @@ services:
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/docker-from-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/codspace/featuresfork/blob/main/src/docker-from-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
