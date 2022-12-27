@@ -7,7 +7,7 @@
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/anaconda:1": {}
+    "ghcr.io/codspace/featuresfork/anaconda:1": {}
 }
 ```
 
@@ -34,4 +34,4 @@ conda install python=3.7
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/anaconda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/codspace/featuresfork/blob/main/src/anaconda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
