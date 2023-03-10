@@ -17,6 +17,5 @@ jobs:
         with:
           publish-features: "true"
           base-path-to-features: "./src"
-          disable-schema-validation: "true" # Temporary until https://github.com/devcontainers/spec/pull/207
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
